@@ -114,7 +114,7 @@ export class Main {
         console.log('Using Sonic Pi root directory: ' + this.rootPath);
         console.log('Using ruby: ' + this.rubyPath);
 
-        this.rubyServerPath = this.rootPath + "/app/server/ruby/bin/sonic-pi-server.rb";
+        this.rubyServerPath = this.rootPath + "/app/server/ruby/bin/spider-server.rb";
         this.portDiscoveryPath = this.rootPath + "/app/server/ruby/bin/port-discovery.rb";
         this.fetchUrlPath = this.rootPath + "/app/server/ruby/bin/fetch-url.rb";
         this.samplePath = this.rootPath + "/etc/samples";
